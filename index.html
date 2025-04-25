@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Portifólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/niggo.jpg" alt="avatar do João" class="rounded-5" width="150" height="150" srcset="">
+        <p class="lead">Eu sou João Emanuel</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Eu sou estudante do Novo Ensino Médio. Estudo no Colégio Estadual Dr. Marins Alves de Camargo.</p>
+        <p>Minhas Habilidades</p>
+        <div>
+            <p class="badge text-bg-secondary">HTML</p>
+            <p class="badge text-bg-secondary">CSS</p>
+            <p class="badge text-bg-secondary">JavaScript</p>
+            <p class="badge text-bg-secondary">Scratch</p>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Ping Pong.png" class="card-img-top" alt="Imagem do projeto PingPong">
+                    <div class="card-body">
+                        <h5 class="card-title">Ping-Pong - Player VS Computer</h5>
+                        <p class="card-text">Jogue Ping Pong contra o computador em partidas rápidas e desafiadoras.
+                            Teste seus reflexos e vença a inteligência artificial!</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Jogue
+                            Agora!</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Flappy Bird.png" class="card-img-top" alt="Imagem do projeto PingPong">
+                    <div class="card-body">
+                        <h5 class="card-title">Flappy Bird</h5>
+                        <p class="card-text">Aperte "espaço" para voar e desvie dos obstáculos! Um desafio viciante onde
+                            cada segundo conta. Até onde você consegue chegar?
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Jogue
+                            Agora!</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Vale dos Baixinhos.png" class="card-img-top" alt="Imagem do projeto PingPong">
+                    <div class="card-body">
+                        <h5 class="card-title">Vale dos Baixinhos</h5>
+                        <p class="card-text">Conheça o Vale dos Baixinhos — o shopping virtual mais divertido do
+                            planeta! Aqui você encontra anões para todas as funções: goleiros ágeis, lutadores
+                            destemidos, salva-vidas atentos e até motoristas que enxergam por baixo do volante! Tudo com
+                            muito bom humor e um toque de fantasia. Porque no Vale dos Baixinhos, o talento não tem
+                            tamanho!</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal"
+                            data-bs-target="#modal3">Visite!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Ping-Pong - Player VS Computer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este jogo de Ping Pong foi desenvolvido com p5.js, uma biblioteca JavaScript voltada para criação
+                        gráfica e interações visuais. O objetivo foi recriar a experiência clássica de Pong, onde o
+                        jogador controla uma raquete e enfrenta uma IA simples</p>
+                    <p>A lógica do jogo inclui movimentação do jogador, controle da bola com rebote nos limites da tela
+                        e uma inteligência artificial básica que segue a bola. Tudo isso com física simples, controle
+                        fluido e uma pitada de nostalgia arcade.</p>
+                    <img src="img/Ping Pong.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de um jogo de Ping Pong">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/jonemanuel/full/HjQhGWRng">Ver projeto agora!</a>>
+                    <a href="https://editor.p5js.org/jonemanuel/sketches/HjQhGWRng">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Flappy Bird</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este jogo foi desenvolvido no Scratch, uma plataforma de programação visual voltada para
+                        iniciantes. Utilizando blocos de código arrastáveis, o projeto recria a mecânica clássica de
+                        Flappy Bird — clique para fazer o personagem voar e desvie dos canos!</p>
+                    <p>Foram usados conceitos como detecção de colisão, movimentação com gravidade simulada, clonagem de
+                        obstáculos e pontuação automática. Tudo isso sem escrever uma linha de código, provando que é
+                        possível criar jogos divertidos de forma simples e intuitiva!</p>
+                    <img src="img/Flappy Bird.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de um jogo de Ping Pong">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/1036859590">Ver projeto agora!</a>>
+                    <a href="https://scratch.mit.edu/projects/1036859590">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Vale dos Baixinhos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O site Vale dos Baixinhos foi desenvolvido com as linguagens base da web: HTML para estruturar o
+                        conteúdo e CSS para estilizar cada detalhe com charme e humor. Cada seção foi pensada para
+                        destacar os “produtos” únicos da loja com um visual leve, responsivo e divertido.</p>
+                    <p>Desde os botões personalizados até os blocos coloridos com descrições criativas, tudo foi montado
+                        de forma manual, sem uso de frameworks — só código puro e muita imaginação!</p>
+                    <img src="img/Vale dos Baixinhos.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de um jogo de Ping Pong">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://jonemanuel22.github.io/valedosbaixinhos/">Ver projeto agora!</a>>
+                    <a href="https://github.com/jonemanuel22/valedosbaixinhos">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/jonemanuel22">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por João Emanuel</p>
+
+    </footer>
+
+</body>
+
+</html>
